@@ -1,0 +1,4 @@
+div{
+    
+    border-image: url('../img/ramka.png') 25 30 10 20 repeat;
+}
