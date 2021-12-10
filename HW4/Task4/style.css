@@ -1,5 +1,4 @@
-div{
-    
+div{    
     border-image: url('../img/ramka.png');
     border-image-slice: 38;
 	border-image-repeat: stretch;
