@@ -7,7 +7,7 @@
     background-repeat:  no-repeat, no-repeat, no-repeat, no-repeat,repeat-y, repeat-y, repeat-x, repeat-x;
    }
 div{
-    color: red;
-    padding-top: 90px; padding-left: 50px; padding-right: 50px; padding-bottom: 90px;
+    color: blueviolet;
+    padding-top: 50px; padding-left: 50px; padding-right: 50px; padding-bottom: 90px;
     text-align: justify;
 }
