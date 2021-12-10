@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тег AREA</title>
+</head>
+<body>
+    <h1 align="center">Тег &lt;area&gt;</h1>
+    <p style="font-size: 20px;">Каждый элемент &lt;area&gt; определяет активные области изображения, которые являются ссылками.
+    Рисунок с привязанными к нему активными областями называется в совокупности картой-изображением. 
+    Такая карта по внешнему виду ничем не отличается от обычного изображения, но при этом оно может быть 
+    разбито на невидимые зоны разной формы, где каждая из областей служит ссылкой. Тег &lt;area&gt; задает форму области, 
+    ее размеры, устанавливает адрес документа, на который следует сделать ссылку, а также имя окна или фрейма, 
+    куда браузер будет загружать документ. Этот тег всегда располагается в контейнере &lt;map&gt;, который связывает координаты 
+    областей с изображением. Ниже приведен пример.</p>
+    <div style="text-align: center;">
+    <img src="../img/Image4282.gif" width="500" alt="Фигуры" title="Фигуры" usemap="#figur">
+    <map name="figur">
+        <area shape="circle" coords="245, 252, 60" href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3" alt="Круг" target="_blank">
+        <area shape="rect" coords="63, 43, 177, 155" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82" alt="Квадрат" target="_blank">
+        <area shape="poly" coords="280, 155, 337, 43, 394, 155" href="https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA#:~:text=%D0%A2%D1%80%D0%B5%D1%83%D0%B3%D0%BE%CC%81%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%20(%D0%B2%20%D0%B5%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2%D0%BE%D0%BC%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B5)%20%E2%80%94,%2C%20%D0%B0%20%D0%BE%D1%82%D1%80%D0%B5%D0%B7%D0%BA%D0%B8%20%E2%80%94%20%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%B0%D0%BC%D0%B8%20%D1%82%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0."
+        alt="Треугольник" target="_blank">
+    </map>
+    </div>
+</body>
+</html>
