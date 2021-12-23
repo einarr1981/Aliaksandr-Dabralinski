@@ -16,3 +16,6 @@ a{
     font-style: italic;
     color: blue;
 }
+a::before{
+    content: url(../extref.png);
+}
