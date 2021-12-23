@@ -11,6 +11,11 @@
 }
 a{
     color: blue;
+    padding-left: 15px;
+    display: block;
+    background-image: url('../extref.png');
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 .disc{
     font-style: italic;
