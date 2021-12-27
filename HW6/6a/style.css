@@ -4,3 +4,18 @@ a:hover{
 a{
     color: green;
 }
+.tabl{
+    padding: 5px;
+}
+td {
+    border-right: 2px solid red;
+}
+.tabl tr td:last-of-type{
+    border: none;
+}
+.links{
+    margin: 5px;
+    padding-bottom: 3px;
+    padding-top: 5px;
+}
+
