@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+.header, .footer {
+    background-color: #ADD8E6;
+    height: 50px;
+    margin-bottom: -20px;
+    padding-top: 10px;
+}
+h2 {
+    color: blue;
+    text-align: center;
+}
+.main {
+    margin: 0; 
+    background-color: #F0E68C;
+}
+.menu {
+    width: 200px; 
+    float: left;
+}
+h3 {
+    text-align: center;
+}
+.content {
+    margin-left: 215px;
+    background-color: white; 
+    background-image: url(img/ball.png);  
+    background-position: right top; background-repeat: repeat-y; vertical-align: top;
+    padding-top: 20px;
+}
+img {
+    float: left; 
+    margin: 15px 15px 15px 15px;
+}
