@@ -39,14 +39,14 @@ img {
 }
 @media (max-width: 450px) {
     .menu {
-        float: none;        
+        float: none;
+        width: 100%;      
     }
     li {
         display: inline;
-
     }
     a {
-        padding: 5px;
+        padding: 15px;
     }
     .content {
         margin-left: 1px;
