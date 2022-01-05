@@ -4,8 +4,7 @@
 .header, .footer {
     background-color: #ADD8E6;
     height: 50px;
-    margin-bottom: -20px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 h2 {
     color: blue;
@@ -32,4 +31,24 @@ h3 {
 img {
     float: left; 
     margin: 15px 15px 15px 15px;
+}
+@media (max-width: 530px) {
+    .header, .footer {
+        height: 100px;
+    }
+}
+@media (max-width: 450px) {
+    .menu {
+        float: none;        
+    }
+    li {
+        display: inline;
+
+    }
+    a {
+        padding: 5px;
+    }
+    .content {
+        margin-left: 1px;
+    }
 }
