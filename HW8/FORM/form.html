@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<body>
+<div class="container">
+    <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+        <div class="changes">
+            Название статьи:
+            <input type="text" name="name" id="name"><br>
+            Рубрика:
+            <select name="rubric" id="rubric">
+                <option value="programming">Программирование</option>
+                <option value="grafic">Графика</option>
+                <option value="disign">Дизайн</option>
+                <option value="datascince">Наука о данных</option>
+                <option value="machinlearn">Машинное обучение</option>
+            </select><br>
+            Публикация:
+            <input type="radio" name="answer" value="1">На сайте
+            <input type="radio" name="answer" value="2">В журнале
+            <input type="radio" name="answer" value="3">На сайте и в журнале<br>
+            Разрешить комментарии
+            <input type="checkbox" name="comment"><br>
+            Текст статьи<br>
+            <textarea name="article"></textarea><br>
+            <input type="submit" value="Опубликовать">
+        </div>
+    </form>
+</div>
+
+    
+</body>
+</html>
