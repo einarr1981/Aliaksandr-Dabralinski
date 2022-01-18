@@ -78,7 +78,154 @@ body {
 }
 .header-search img[alt="hump"] {
     float: left;
+    margin-top: 65px;
+    margin-right: 45px;
 }
 .header-search img[alt="logo"] {
     float: left;
+    margin-top: 36px;
+    margin-right: 45px;
 }
+.header-search .search {
+    float: left;
+   margin-top: 51px;
+}
+.header-search button {
+    float: right;
+    width: 156px;
+    height: 52px;
+    background: #81B43F;
+    border-radius: 8px;
+    border: none;
+    margin-top: 51px;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.header-search button span:first-child {
+    display: inline-block;
+    height: 28px;
+    padding-right: 14px;
+    border-right: 1px solid #FFFFFF;
+    vertical-align: sub;
+}
+.header-search button span:last-child {
+    margin-left: 14px;
+    vertical-align: sub;
+}
+
+/*header-bottom-menu*/
+.header-bottom-menu {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 24px;
+    margin-left: 207px;
+
+}
+.header-bottom-menu li {
+    float: left;
+    margin-left: 31px;
+}
+.header-bottom-menu li.active {
+    color: #FF715B;
+}
+
+/*sale*/
+.sale {
+    height: 381px;
+    background: url('img/elka1.jpg') no-repeat center;
+    background-size: cover;
+    margin-top: 37px;
+    padding-top: 80px;
+}
+.sale-red {
+    width: 511px;
+    height: 226px;
+    background: #FF715B;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    float: right;
+    text-align: center;
+}
+.sale-red h1 span:first-child {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    display: block;
+    padding-top: 43px;
+}
+.sale-red h1 span:nth-child(2) {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+    display: block;
+}
+.sale-red h1 span:last-child {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+/*filters*/
+.filters-wrap {
+   
+}
+.filter {
+    height: 96px;
+    width: 272px;
+    border-left: 1px solid #F5F5F5;
+    border-right: 1px solid #F5F5F5;
+    float: left;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 30px;
+}
+.filter img {
+    margin-left: 83px;
+    margin-right: 8px;
+}
+.filter span {
+    vertical-align: 7px;
+}
+.filters-wrap ul {
+    float: right;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 32px;
+}
+.filters-wrap ul li {
+    float: left;
+    margin-right: 64px;
+}
+.filters-wrap ul li:last-child {
+    margin-right: 0;
+}
+.filters-wrap ul li a:hover {
+    display: inline-block;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #FF715B;
+}
+
