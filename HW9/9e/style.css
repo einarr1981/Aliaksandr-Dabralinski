@@ -34,3 +34,23 @@ h3 {
     height: 50px;
     padding-top: 8px;
 }
+@media all and (max-width: 430px){
+    .header, .footer{
+        display: none;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .menu{
+        width: 100%;
+        order: 2;
+    }
+    img{
+        float: none;
+        width: 100%;
+    }
+    .menu ul li{
+        float: left;
+        list-style-type: none;
+    }
+}
