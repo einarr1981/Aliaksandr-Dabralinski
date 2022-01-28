@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+}
+.menu {
+    background-color: #F0E68C;
+    flex-basis: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.main {
+    flex-basis: 100%;
+    background-image: url('img/ball.png');
+    background-position: right top;
+    background-repeat: repeat-y;
+    vertical-align: top;
+}
+img {
+    padding: 10px;
+    float: left;
+}
+h3 {
+    text-align: center;
+}
+.header, .footer {
+    background-color: #ADD8E6;
+    text-align: center;
+    color: blue;
+    height: 50px;
+    padding-top: 8px;
+}
