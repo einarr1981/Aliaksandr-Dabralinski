@@ -5,9 +5,9 @@
 .moving {
     width: 264px;
     height: 380px;
-    animation: MoveBoy 5s steps(8) infinite;
+    animation: MoveBoy 2s steps(8) infinite;
 }
 @keyframes MoveBoy{
     from{background: url('SPRITES.jpg') 0 0;}
-    to{background: url('SPRITES.jpg') -2112px 0;} /*2376-264=2112 8 кадров*/
+    to{background: url('SPRITES.jpg') -2112px 0;}
 }
