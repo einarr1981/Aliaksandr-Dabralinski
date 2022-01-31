@@ -1,0 +1,26 @@
+.smile-checkbox
+{
+    visibility: hidden;
+}
+span{
+    margin-left: 110px;
+}
+.smile-checkbox::before
+{
+    visibility: visible;
+    content: url('img/sad.jpg');
+    background-size: 100px;
+    position: relative;
+}
+.smile-checkbox:checked::before {
+    content: url('img/smile.jpeg');
+    background-size: 100px;
+}
+.smile-checkbox + span
+    {
+        color: red;
+    }
+    .smile-checkbox:checked + span
+    {
+        color: green;
+    }
