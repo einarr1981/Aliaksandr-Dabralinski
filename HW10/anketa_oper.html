@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANKETA_OPER</title>
+</head>
+<body>
+    <script>
+        var Firstname=prompt('Введите вашу фамилию');
+        var Lastname=prompt('Введите ваше имя');
+        var Patronymic=prompt('Введите ваше отчество');
+        var Age=parseInt(prompt('Введите ваш возрост'));
+        while (Age<18||Age>120||isNaN(Age)){
+        Age<18||Age>120||isNaN(Age) ? Age=prompt('Данные введены некорректно.') : Age;
+        }
+        var Gender=confirm('Вы мужчина?');
+        Gender ? Gender='мужской' : Gender='женский';
+        var Pens;
+        (Gender=='мужской'&&Age>62||Age>58&&Gender=='женский') ? Pens='да' : Pens='нет';
+        alert('Ваше ФИО: '+ Firstname+' '+Lastname+' '+Patronymic+'\n'+
+        'Ваш возраст в годах: '+Age+'\n'+
+        'Ваш возраст в днях: '+Age*365+'\n'+
+        'Через 5 лет вам будет: '+(Age+5)+'\n'+
+        'Ваш пол: '+Gender+'\n'+
+        'Вы на пенсии: '+Pens)
+    </script>
+</body>
+</html>
