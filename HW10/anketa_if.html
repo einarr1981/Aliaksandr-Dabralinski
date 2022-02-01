@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANKETA_IF</title>
+</head>
+<body>
+    <script>
+        var Firstname=prompt('Введите вашу фамилию');
+        var Lastname=prompt('Введите ваше имя');
+        var Patronymic=prompt('Введите ваше отчество');
+        var Age=parseInt(prompt('Введите ваш возрост'));
+        while (Age<18||Age>120||isNaN(Age)){
+        if (Age<18||Age>120||isNaN(Age)){
+            alert('Данные введены некорректно.');
+            var Age=parseInt(prompt('Введите ваш возрост'));
+        }
+    }
+        var Gender=confirm('Вы мужчина?');
+        if(Gender) {
+            Gender='мужской'
+        }
+        else {
+            Gender='женский'
+        }
+        var Pens
+        if (Age>=62&&Gender=='мужской'||Age>=58&&Gender=='женский'){
+            Pens='да'
+        }
+        else {
+            Pens='нет'
+        }
+        alert('Ваше ФИО: '+ Firstname+' '+Lastname+' '+Patronymic+'\n'+
+        'Ваш возраст в годах: '+Age+'\n'+
+        'Ваш возраст в днях: '+Age*365+'\n'+
+        'Через 5 лет вам будет: '+(Age+5)+'\n'+
+        'Ваш пол: '+Gender+'\n'+
+        'Вы на пенсии: '+Pens)
+    </script>
+</body>
+</html>
