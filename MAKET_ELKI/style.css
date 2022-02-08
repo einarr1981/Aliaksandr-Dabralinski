@@ -232,6 +232,7 @@ body {
 .catalog {
     padding-top: 66px;
     background: #F9F9F9;
+    padding-bottom: 50px;
 }
 .catalog .catalog-breadcrumbs {
     float: left;
@@ -309,6 +310,15 @@ color: rgba(0, 0, 0, 0.5);
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 16px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.catalog-items {
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 28px;
 }
 .catalog-item-img {
     text-align: center;
@@ -317,9 +327,48 @@ color: rgba(0, 0, 0, 0.5);
     width: 100%;
     margin-top: 16px;
 }
-.stars span {
+.stars span:not(.text) {
     width: 9px;
     height: 9px;
-    display: inline-block;
-    background: url('img/star.svg');
+    display: inline-block;    
+}
+.stars span:not(.text):not(.empty) {
+    background: url('img/star.svg') no-repeat;
+}
+.stars span.empty {
+    opacity: 0.3;
+    background: url('img/star1.svg') no-repeat;
+}
+.stars span.text {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 10px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 7px;
+}
+.catalog-item h4 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+}
+.catalog-item h5 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+}
+.catalog-item p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.5);
+}
+.catalog-item .basket {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: url('img/basket.png') center no-repeat #81B43F;
+    float: right;
+    margin-top: -20px;
 }
