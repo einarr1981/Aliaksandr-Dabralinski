@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>COUNTRIES</title>
+</head>
+<body>
+    <button onclick="addContry()">Ввод информации о стране</button><br>
+    <button onclick="getCountryInfo()">Получение информации о стране</button><br>
+    <button onclick="listCountries()">Перечень всех стран</button><br>
+    <button onclick="delateCountry()">Удаление информации о стране</button><br>
+
+
+    <script>
+        var countriesH = {'Германия':'Берлин','Венгрия':'Будапешт','Франция':'Париж'}
+        function addContry(nameCountry, nameCapital){
+            var nameCountry=prompt('Введите название страны');
+            var nameCapital=prompt('Введите название столицы');
+            countriesH[nameCountry]=nameCapital;
+        }
+        function getCountryInfo(nameCountry) {
+            var nameCountry=prompt('Введите название');
+            if(nameCountry in countriesH)
+                console.log ('страна: ' + nameCountry + ' столица: ' + countriesH[nameCountry]);
+            else
+                console.log ('нет информации о стране' + nameCountry + '!');
+        }
+        function listCountries(){
+            for (var nameCountry in countriesH)
+            console.log('страна ' + nameCountry + ' столица: ' + countriesH[nameCountry]);
+        }
+        function delateCountry(nameCountry){
+            var nameCountry=prompt('Введите название страны');
+            delete countriesH[nameCountry];
+       }
+    </script>
+</body>
+</html>
