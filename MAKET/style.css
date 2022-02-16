@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Main Page*/
+.mainpage {
+    background: url('img/Cover4.png');
+    display: flex;
+    /*height: 751px;*/
+
+}
+.mainpage .mainleft {
+    height: 751px;
+    flex-basis: 380px;
+}
+.mainpage .maincenter {
+    height: 751px;
+    padding-top: 195px;
+    flex-basis: 441px;
+    position: absolute;
+    left: 376px;
+}
+
+.mainpage .mainright {
+    height: 751px;
+    flex-basis: 380px;
+}
+.mainpage a {
+    font-family: "PartnerUltraCondensed", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 36px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.mainpage .mainleft a:nth-of-type(1) {
+    position: absolute;
+    top: 182px;
+    left: 98px;
+}
+.mainpage .mainleft a:nth-of-type(2) {
+    position: absolute;
+    top: 282px;
+    left: 161px;
+}
+.mainpage .mainleft a:nth-of-type(3) {
+    position: absolute;
+    top: 400px;
+    left: 53px;
+}
+.mainpage .mainright a:nth-of-type(1) {
+    position: absolute;
+    top: 182px;
+    left: 880px;
+}
+.mainpage .mainright a:nth-of-type(2) {
+    position: absolute;
+    top: 281px;
+    left: 925px;
+}
+.mainpage .mainright a:nth-of-type(3) {
+    position: absolute;
+    top: 387px;
+    left: 940px;
+}
+/*Page About*/
+.header {
+    background: radial-gradient(112.93% 112.93% at 50% 106.72%, #2E4151 0%, #010007 100%);
+    width: 100%;
+    height: 300px;
+}
+.aboutlogo {
+    padding-top: 50px;
+    margin-left: 437px;
+}
+.headermenu {
+    width: 100%;
+    height: 66px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 163px;
+    display: flex;
+}
+.headermenu  {
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.headermenu a {
+    text-decoration: none;
+}
+.headerelement {
+    position: absolute;
+    top: 247px;
+    left: 165px;
+}
+.headervector {
+    position: absolute;
+    top: 260px;
+    left: 0px;
+}
+.content {
+    width: 100%;
+}
+.firstblock {
+    background: radial-gradient(53.88% 97% at 50% 48.5%, #2E4151 0%, #010007 100%);
+    height: 590px;
+}
+.logofirstblock {
+    position: absolute;
+    top: 290px;
+    left: 300px;
+}
+.firsttext {
+    color:#FFFFFF;
+}
