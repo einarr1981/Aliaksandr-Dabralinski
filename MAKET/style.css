@@ -118,3 +118,44 @@
 .firsttext {
     color:#FFFFFF;
 }
+.firsttext h1 {
+    font-size: 48px;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-top: 57px;
+}
+.firsttext img {
+    margin-left: 45px;
+    padding-top: 45px;
+    position: absolute;
+}
+.firsttext p {
+    font-size: 24px;
+    padding-left: 97px;
+    padding-top: 50px;
+    padding-right: 235px;
+}
+.secondblock h1 {
+    font-size: 48px;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-top: 57px;
+}
+.secondblock img {
+    margin-left: 45px;
+    padding-top: 45px;
+    position: absolute;
+}
+.secondblock p {
+    font-size: 24px;
+    padding-left: 97px;
+    padding-top: 50px;
+    padding-right: 235px;
+    color: black;
+}
+.secondblock .icons {
+    display: flex;
+}
+.secondblock .icons div {
+    flex-basis: 200px;
+}
