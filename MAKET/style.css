@@ -135,6 +135,9 @@
     padding-top: 50px;
     padding-right: 235px;
 }
+.secondblock {
+    width: 100%;
+}
 .secondblock h1 {
     font-size: 48px;
     margin-left: 45px;
@@ -154,8 +157,8 @@
     color: black;
 }
 .secondblock .icons {
-    display: flex;
+    float: left;
 }
 .secondblock .icons div {
-    flex-basis: 200px;
+
 }
