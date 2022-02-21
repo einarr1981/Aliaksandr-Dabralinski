@@ -70,18 +70,21 @@
 /*Page About*/
 .header {
     background: radial-gradient(112.93% 112.93% at 50% 106.72%, #2E4151 0%, #010007 100%);
-    width: 100%;
+    width: 1200px;
     height: 300px;
 }
 .aboutlogo {
     padding-top: 50px;
     margin-left: 437px;
 }
+.aboutlogo img {
+    margin-bottom: 32px;
+}
 .headermenu {
-    width: 100%;
+    width: 1200px;
     height: 66px;
     background: #FFFFFF;
-    position: absolute;
+    /*position: absolute;*/
     top: 163px;
     display: flex;
 }
@@ -95,16 +98,16 @@
 }
 .headerelement {
     position: absolute;
-    top: 247px;
+    top: 242px;
     left: 165px;
 }
 .headervector {
     position: absolute;
-    top: 260px;
+    top: 253px;
     left: 0px;
 }
 .content {
-    width: 100%;
+    width: 1200px;
 }
 .firstblock {
     background: radial-gradient(53.88% 97% at 50% 48.5%, #2E4151 0%, #010007 100%);
@@ -132,11 +135,11 @@
 .firsttext p {
     font-size: 24px;
     padding-left: 97px;
-    padding-top: 50px;
+    padding-top: 37px;
     padding-right: 235px;
 }
 .secondblock {
-    width: 100%;
+    width: 1200px;
 }
 .secondblock h1 {
     font-size: 48px;
@@ -156,9 +159,396 @@
     padding-right: 235px;
     color: black;
 }
-.secondblock .icons {
+.icons {
+    display: flex;
+}
+.icons div {
+    flex-basis: 250px;
+    margin-top: 59px;
+    
+}
+.icons .first_img img {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+.icons div p {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.mission {
+    width: 1200px;
+    height: 486px;
+    background-image: url('img/MissionCover\ 1.png');
+}
+.mission h1 {
+    color:white;
+    font-size: 48px;
+    margin-top: 69px;
+    margin-left: 45px;
+    padding-top: 46px;
+}
+.mission img {
+    margin-left: 45px;
+    padding-top: 45px;
+    position: absolute;
+}
+.mission p {
+    font-size: 22px;
+    padding-left: 97px;
+    padding-top: 46px;
+    padding-right: 235px;
+    padding-bottom: 1px;
+    color: white;
+}
+.technology {
+    width: 1200px;
+    height: 973px;
+    background: radial-gradient(53.88% 97% at 50% 48.5%, #2E4151 0%, #010007 100%);
+}
+.technology h1 {
+    color:white;
+    font-size: 48px;
+    margin-left: 45px;
+    padding-top: 46px;
+}
+.technology img {
+    margin-left: 45px;
+    padding-top: 45px;
+    position: absolute;
+}
+.technology p {
+    font-size: 22px;
+    padding-left: 97px;
+    padding-top: 46px;
+    padding-right: 235px;
+    padding-bottom: 1px;
+    color: white;
+}
+.techblocks {
+    display: flex;
+    height: 485px;
+}
+.fuelburner {
+    flex-basis: 350px;
+    position: relative;
+}
+.technology img:nth-of-type(3) {
+    margin-left: 45px;    
+    padding-top: 450px;
+}
+.lasttext {
+    margin-top: 65px;
+}
+.footer {
+    background: radial-gradient(63.52% 182.54% at 50% 0%, #2E4151 0%, #010007 100%);
+    width: 1200px;
+    height: 252px;
+}
+.footerlogo {
     float: left;
 }
-.secondblock .icons div {
+.footer img {
+    padding-top: 48px;
+    padding-left: 46px;
+}
+.footer p {
+    color: white;
+    padding-left: 46px;
+    padding-top: 14px;
+    padding-bottom: 50px;
+}
+.footer span {
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.4);
+    padding-left: 46px;
+}
+.name {
+    float: left;
+}
+.name h3 {
+    color: white;
+    padding-top: 48px;
+    padding-left: 121px;
+}
+.name p {
+    padding-left: 121px;
+}
+.contacts {
+    float: left;
+}
+.contacts h3 {
+    color: white;
+    padding-left: 76px;
+    padding-top: 48px;
+}
+.contacts p {
+    padding-left: 76px;
+}
+.up {
+    float: right;
+}
+.up img {
+    padding-top: 48px;
+    padding-right: 45px;
+}
 
+/*Page Warranty*/
+.warranty {
+    background: url('img/warrantybackgr.png');
+    width: 1200px;
+    height: 692px;
+}
+.warranty h1 {
+    color: white;
+    padding-left: 45px;
+    padding-top: 40px;
+}
+.warranty img {
+    padding-left: 45px;
+    padding-top: 30px;
+    position: absolute;
+}
+.warranty p {
+    color: white;
+    padding-top: 0px;
+    padding-left: 97px;
+    margin-right: 235px;
+    font-size: 24px;
+    padding-bottom: 42px;
+}
+.warranty p img {
+    position: relative;
+    padding-left: 3px;
+}
+.rules {
+    margin-top: 73px;
+    margin-left: 99px;
+}
+.warrantyticket {
+    float: left;
+}
+/*.warrantyticket img {
+    position: relative;
+    margin-left: 99px;
+    margin-top: 68px;
+    padding: 0;
+}*/
+.warrantyticket a {
+    color: white;
+    margin-right: 60px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.documentation {
+    float: left;
+}
+/*.documentation img {
+    position: relative;
+    margin-left: 60px;
+    margin-top: 68px;
+    padding: 0;
+}*/
+.documentation a {
+    color: white;
+    margin-right: 60px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.warrantyrules {
+    float: left;
+}
+/*.warrantyrules img {
+    position: relative;
+    margin-left: 60px;
+    margin-top: 68px;
+    padding: 0;
+}*/
+.warrantyrules a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.circle {
+    width: 26px;
+    height: 26px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 112, 255, 0.5) 0%, rgba(196, 196, 196, 0) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 11px;
+}
+
+
+/*Partnership Page*/
+.partnershipchoice {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.shop {    
+    border-bottom: solid 6px black;
+    flex-basis: 600px;
+    text-align: center;
+}
+.shop a {    
+    text-decoration: none;
+}
+.service {
+    text-align: center;
+    flex-basis: 600px;
+    border-bottom: solid 3px black;
+}
+.service a {    
+    text-decoration: none;
+}
+.benefits h2 {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.benefits img {
+    margin-left: 45px;
+    margin-top: 30px;
+    position: absolute;
+}
+.benefits p {
+    font-family: Century Gothic;
+    font-size: 24px;
+    color: #000000;
+    margin-left: 97px;
+    margin-top: 30px;
+}
+.benefitsimg {
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45px;
+}
+.certificate {
+    flex-basis: 300px;
+}
+.certificate img {
+    position: relative;
+}
+.benefitsimg p {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 20px;
+}
+.extraprice {
+    flex-basis: 300px;
+}
+.extraprice img {
+    position: relative;
+}
+.inhelp {
+    flex-basis: 300px;
+}
+.inhelp image {
+    position: relative;
+}
+.checklist {
+    flex-basis: 300px;
+}
+.checklist img {
+    position: relative;
+}
+.dealerform {
+    height: 946px;
+    background: radial-gradient(53.88% 97% at 50% 48.5%, #2E4151 0%, #010007 100%);
+}
+.dealerform h2 {
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-left: 45px;
+    margin-top: 85px;
+    padding-top: 46px;
+}
+.stepnumber {
+    float: left;
+    font-family: "PartnerUltraCondensed", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 53px;
+    margin-left: 45px;
+}
+.numbercontent {
+    float: left;
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 17px;
+    margin-right: 100px;
+}
+.form {
+    float: left;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.15);
+    width: 920px;
+    height: 544px;
+    margin-left: 45px;
+}
+.form h2 {
+    font-family: "PartnerUltraCondensed", sans-serif;
+    font-size: 48px;
+    color: #000000;
+    margin-top: -45px;
+}
+.form p {
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.form input {
+    margin-left: 65px;
+    margin-top: 65px;
+    border: none;
+    border-bottom: 2px solid #BEBEBE;
+    width: 709px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.38);
+}
+.form input:last-of-type {
+    margin-left: 633px;
+    border: none;
+    margin-top: 60px;
+    width: 190px;
+    height: 30px;
+    font-family: "PartnerUltraCondensed", sans-serif;
+    font-size: 24px;
+    color: #010007;
+    background: #FFFFFF;
+}
+.form input:last-of-type:hover {
+    color: royalblue;
+}
+.form img {
+    margin-top: 6px;
 }
