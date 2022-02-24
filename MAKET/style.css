@@ -583,3 +583,6 @@
     background: url('img/elipscatalog.png') no-repeat center;
     height: 256px;
 }
+.accordion-item span {
+    flex-basis: 450px;
+}
