@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+</head>
+
+<body>
+    <pre>
+        Задание:
+        Дан массив целых чисел. Проверьте есть ли в нем одинаковые элементы. Если есть выведите их на экран.
+    </pre>
+    <script>
+        let values = [10, 20, 4, 6, 11, 9, 125, 10, 8, 0, 3, 5, 89, 12, 46, 77, 3];
+
+        for (let i = 0; i < values.length - 1; i++) {
+
+            const current = values[i];
+
+            // k = i - так как нам не нужно проверять предыдущие значения, то вложенный цикл проверяет текущее значение current с последующими
+            // Последний элемент уже сравнивать не нужно, так как предпоследний элемент будет проверен на равенство с последним.
+            // Поэтому первый цикл на 16 строке запускается на одну итерацию меньше, чем размер массива.
+            for (let k = i + 1; k < values.length; k++) {
+                const element = values[k];
+
+                if (current == element) {
+                    console.log(`Значение ${current} повторяется`);
+                    break;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
