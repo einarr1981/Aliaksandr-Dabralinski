@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <pre>
+        Задание:
+        Запросите у пользователя число, посчитайте сумму всех числе между 0 и введенным значением и отобразите результат на экран.
+    </pre>
+    <script>
+        let start = 0;
+        let end = +prompt("Введите конечное число");
+        let sum = 0;
+        for (let i = start; i <= end; i++){
+            sum += i;
+        }
+        alert (`Сумма чисел от ${start} до ${end} равна ${sum}`);
+    </script>
+</body>
+</html>
